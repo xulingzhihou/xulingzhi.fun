@@ -23,10 +23,15 @@ const images = [
         src: "/xulingzhi-lisbon-nightstreetlamp.jpg",
         alt: "a street lamp at night in lisbon",
       },
-    {
-        name: 'xulingzhi-london-dalsonkinglandstation',
-        src: '/xulingzhi-london-dalsonkinglandstation.jpg',
-        alt: 'dalson kingland train station in london',
+    // {
+    //     name: 'xulingzhi-london-dalsonkinglandstation',
+    //     src: '/xulingzhi-london-dalsonkinglandstation.jpg',
+    //     alt: 'dalson kingland train station in london',
+    // },
+	{
+        name: 'xulingzhi-amsterdam-crossbridge',
+        src: '/xulingzhi-amsterdam-crossbridge.jpg',
+        alt: 'a busy crossbridge in amesterdam',
     },
     {
         name: 'xulingzhi-london-greenfield',
@@ -52,7 +57,7 @@ const images = [
     {
         name: 'xulingzhi-london-seagullmarket',
         src: '/xulingzhi-london-seagullmarket.jpg',
-        alt: 'seegulls searching for food in the after hour of an outdoor food market in london',
+        alt: 'seagulls searching for food in the after hour of an outdoor food market in london',
     },
     {
         name: 'xulingzhi-london-shoreditch-wheatpastewall',

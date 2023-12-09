@@ -18,20 +18,15 @@ const images = [
         src: '/xulingzhi-amsterdam-xxx-flag.jpg',
         alt: 'a boathouse with a xxx flag in amesterdam',
     },
-      {
-        name: "xulingzhi-lisbon-nightstreetlamp",
-        src: "/xulingzhi-lisbon-nightstreetlamp.jpg",
-        alt: "a street lamp at night in lisbon",
-      },
-    // {
-    //     name: 'xulingzhi-london-dalsonkinglandstation',
-    //     src: '/xulingzhi-london-dalsonkinglandstation.jpg',
-    //     alt: 'dalson kingland train station in london',
-    // },
 	{
-        name: 'xulingzhi-amsterdam-crossbridge',
-        src: '/xulingzhi-amsterdam-crossbridge.jpg',
-        alt: 'a busy crossbridge in amesterdam',
+		name: "xulingzhi-lisbon-nightstreetlamp",
+		src: "/xulingzhi-lisbon-nightstreetlamp.jpg",
+		alt: "a street lamp at night in lisbon",
+	},
+    {
+        name: 'xulingzhi-london-dalsonkinglandstation',
+        src: '/xulingzhi-london-dalsonkinglandstation.jpg',
+        alt: 'dalson kingland train station in london',
     },
     {
         name: 'xulingzhi-london-greenfield',

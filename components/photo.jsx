@@ -11,9 +11,14 @@ const Photo = ({ src, alt, selectImage, imgIndex }) => {
     const onPhotoClick = () => {
         selectImage(imgIndex);
     };
+
+    const onContextMenu = (event) => {
+        event.preventDefault();
+    };
     return (
         <div
             className={`p-3 transition ease-in-out duration-500 transform hover:shadow hover:scale-110 cursor-pointer `}
+            onContextMenu={onContextMenu}
         >
             <a onClick={onPhotoClick}>
                 <Image

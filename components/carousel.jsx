@@ -10,15 +10,21 @@ const Carousel = ({
 }) => {
     const activeImg = images[activeImgIndex];
     const { src, alt } = activeImg;
+    const onContextMenu = (event) => {
+        event.preventDefault();
+    };
     return (
         <div className="w-screen h-screen bg-black bg-opacity-75 flex items-center justify-center ">
-            <div className="flex flex-col bg-white p-5 w-10/12 h-10/12">
+            <div className="flex flex-col bg-white p-10 w-3/4 h-3/4 items-center justify-center">
                 <button className="place-self-end" onClick={onCloseCarousel}>
                     <BsXLg style={{ fontSize: '2em' }} />
                 </button>
-                <div className="flex items-center justify-around">
+                <div
+                    className="flex items-center justify-center h-full w-full"
+                    onContextMenu={onContextMenu}
+                >
                     <button
-                        className="py-1 px-1"
+                        className="py-2 px-2"
                         onClick={() =>
                             setActiveImg(
                                 activeImgIndex > 0
@@ -34,15 +40,16 @@ const Carousel = ({
                         alt={alt}
                         style={{
                             objectFit: 'contain',
-                            height: '800px',
+							width: '100%',
+          					height: '90%',
                         }}
                         width={1000}
-                        height={500}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        height={100}
+                        sizes="100vw"
                     />
 
                     <button
-                        className="py-1 px-1"
+                        className="py-2 px-2"
                         onClick={() =>
                             setActiveImg(
                                 activeImgIndex < images.length - 1
